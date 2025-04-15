@@ -1,0 +1,27 @@
+[
+  {
+    "name": "API Server Errors",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*500.*|.*503.*|.*Internal Server Error.*"
+  },
+  {
+    "name": "Auth Failures",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*401.*|.*403.*|.*Unauthorized.*|.*Forbidden.*"
+  },
+  {
+    "name": "Resource Not Found",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*404.*|.*Not Found.*"
+  },
+  {
+    "name": "Client Request Errors",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*400.*|.*415.*|.*Bad Request.*"
+  },
+  {
+    "name": "API Inconsistencies",
+    "messageRegex": ".*API inconsistency.*|.*Unexpected status code.*",
+    "matchedStatuses": ["broken", "failed"]
+  }
+] 

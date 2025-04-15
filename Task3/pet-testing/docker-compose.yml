@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  tests:
+    build: .
+    volumes:
+      - test-results:/app/target
+    environment:
+      - API_ENV=staging
+    command: mvn test
+    network_mode: "host"
+
+volumes:
+  test-results: 

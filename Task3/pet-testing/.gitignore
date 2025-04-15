@@ -1,0 +1,88 @@
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+.vscode/
+*.iws
+*.iml
+*.ipr
+out/
+.project
+.classpath
+.settings/
+bin/
+.factorypath
+nbproject/
+.nb-gradle/
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Local development
+.env
+.env.local
+.env.*.local
+
+# Testing
+.allure/
+allure-results/
+allure-report/
+surefire-reports/
+test-output/
+
+
+# TestNG
+testng-failed.xml
+testng-results.xml
+
+# Rest Assured
+requestbody.txt
+responsebody.txt
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+
+# Custom test files
+target/test-files/
+
+# Runtime generated files
+.attach_pid* 
