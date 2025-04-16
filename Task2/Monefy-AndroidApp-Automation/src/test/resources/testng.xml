@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Monefy End-to-End Test Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.monefy.utils.Listeners"/>
+    </listeners>
+
+    <!-- Test to run the end-to-end flow -->
+    <test name="End-to-End User Flow Test">
+        <classes>
+            <class name="com.monefy.tests.EndToEndFlowTest"/>
+        </classes>
+    </test>
+
+</suite>

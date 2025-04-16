@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Monefy Individual Tests Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.monefy.utils.Listeners"/>
+    </listeners>
+
+    <!-- Test: App Launch -->
+    <test name="App Launch Test">
+        <classes>
+            <class name="com.monefy.tests.AppLaunchTest"/>
+        </classes>
+    </test>
+
+    <!-- Test: Onboarding Flow -->
+    <test name="Onboarding Flow Test">
+        <classes>
+            <class name="com.monefy.tests.OnboardingFlowTest"/>
+        </classes>
+    </test>
+
+    <!-- Test: Home Page Flow -->
+    <test name="Home Page Flow Test">
+        <classes>
+            <class name="com.monefy.tests.HomePageFlowTest"/>
+        </classes>
+    </test>
+
+    <!-- Test: Income Flow Test -->
+    <test name="Income Flow Test">
+        <classes>
+            <class name="com.monefy.tests.IncomeFlowTest"/>
+        </classes>
+    </test>
+
+    <!-- Test: Expense Flow Test -->
+    <test name="Expense Flow Test">
+        <classes>
+            <class name="com.monefy.tests.ExpenseFlowTest"/>
+        </classes>
+    </test>
+
+</suite> 

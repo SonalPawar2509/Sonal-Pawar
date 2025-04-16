@@ -1,0 +1,30 @@
+# Maven build directories
+target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.eclipse/
+.settings/
+.classpath
+.project
+
+# Logs
+logs/
+*.log
+
+# Test output
+screenshots/
+
+# Mac OS files
+.DS_Store
+
+# Other
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
